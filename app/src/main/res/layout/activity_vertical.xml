@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.david.infiniteslide.VerticalActivity">
+    <com.david.infiniteslidelib.view.InfiniteSlideView
+        android:id="@+id/slide_view1"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        app:view_orientation="vertical"
+        ></com.david.infiniteslidelib.view.InfiniteSlideView>
+    <com.david.infiniteslidelib.view.InfiniteSlideView
+        android:id="@+id/slide_view2"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"></com.david.infiniteslidelib.view.InfiniteSlideView>
+</LinearLayout>
