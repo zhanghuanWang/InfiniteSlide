@@ -1,8 +1,8 @@
 # InfiniteSlide
 提供简单的滑动变换，支持横竖模式，滑动过程自定义动画
 
-![](http://upload-images.jianshu.io/upload_images/2440045-9209cc458fde6ea0.gif?imageMogr2/auto-orient/strip)	
-![](http://upload-images.jianshu.io/upload_images/2440045-33b2eb24d2637850.gif?imageMogr2/auto-orient/strip)
+![](http://upload-images.jianshu.io/upload_images/2440045-74696d8634d15b3b.gif?imageMogr2/auto-orient/strip)	
+![](http://upload-images.jianshu.io/upload_images/2440045-4b9a8a79672cada9.gif?imageMogr2/auto-orient/strip)
 
 # Usage
 1,download module and dependent(下载并且依赖到项目中)
