@@ -20,12 +20,12 @@
 参数 view_orientation有两个值vertical和horizontal，vertical表示控件是竖直滑动，horizontal表示控件横向滑动。默认是horizontal
 
 也可以通过java代码设置
- ```
+```
    setView_orientation(InfiniteSlideView.SLIDE_MODE_VERTICAL);
- ```
+```
  
  3，定义adapter，需要继承SlideBaseAdapter.像平时定义RecyclerView一样定义，只是原来getItemCount()改为getRealCount()用法一样
- ```
+```
      class MyAdapter extends SlideBaseAdapter<MyViewHolder> {
 
         @Override
@@ -44,15 +44,15 @@
              // like RecyclerView getItemCount()
         }
     }
-     ```
+```
      
  4，设置adapter
- ```
+```
     myInfiniteSlideView.setAdapter(MyAdapter);
-    ```
+```
     
  5,下面是最激动人心的时刻了。继承接口自定义自己想要的动画
-    ```
+```
     myInfiniteSlideView.setSlideViewListener(new SlideViewListener() {
             @Override
             public void onChange(View v, float offset, boolean positive) {
@@ -60,7 +60,7 @@
                 v.setScaleY(1 - offset * 0.5f);
             }
         });
-    ```
+```
     这里有三个参数 :<p>
       (1)View v 表示需要转换的view，即当前需要定义的View本身<p>
       (2)float offset 表示view相对中心点的偏移量.这个值在1和0之间变动。0表示这个view在父容器的中心，1表示这个view在最旁边<p>
