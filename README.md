@@ -25,7 +25,7 @@
  ```
  
  3，定义adapter，需要继承SlideBaseAdapter.像平时定义RecyclerView一样定义，只是原来getItemCount()改为getRealCount()用法一样
-     ```
+ ```
      class MyAdapter extends SlideBaseAdapter<MyViewHolder> {
 
         @Override
@@ -47,7 +47,7 @@
      ```
      
  4，设置adapter
-  ```
+ ```
     myInfiniteSlideView.setAdapter(MyAdapter);
     ```
     
